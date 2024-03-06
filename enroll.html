@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enrollment Form</title>
+</head>
+<body>
+<h2>Enrollment with Us</h2>
+<form action="submit_enrollment.php" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <label for="phone">Phone Number:</label><br>
+  <input type="tel" id="phone" name="phone" required><br>
+  <label for="course">Course of Interest:</label><br>
+  <select id="course" name="course" required>
+    <option value="">Select a course</option>
+    <option value="Web Development">Web Development</option>
+    <option value="Digital Marketing">Digital Marketing</option>
+    <option value="Cybersecurity">Cybersecurity</option>
+    <option value="Data Analytics">Data Analytics</option>
+    <option value="Computer Packages">Computer Packages</option>
+    <option value="Annotation">Annotation</option>
+    <option value="Transcription">Transcription</option>
+    <option value="Social media management">Social Media management and contect creation</option>
+  </select><br><br>
+  <label for="why Us">Why enroll with us:</label><br>
+    <textarea id="reviews" name="reviews" row="50" column="40">
+    </textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
