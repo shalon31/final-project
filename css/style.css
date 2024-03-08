@@ -483,6 +483,7 @@ a:hover, a:focus, a:active {
     width: 160px;
     height: 43px;
     background: url(../img/our-logo.jpg) no-repeat left 100%;
+  
     background-size: cover;
   }
 }
